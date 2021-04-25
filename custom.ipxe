@@ -29,6 +29,7 @@ echo
 echo -n URL: ${} && read win_base_url
 echo
 echo netboot.xyz will attempt to load the following files:
+echo ${win_base_url}/${win_arch}/bootmgr.exe
 echo ${win_base_url}/${win_arch}/bootmgr
 echo ${win_base_url}/${win_arch}/bootmgr.efi
 echo ${win_base_url}/${win_arch}/boot/bcd
